@@ -1,0 +1,19 @@
+/* pixie css page */
+
+
+
+  .inline img{
+    float:left;
+  }
+
+  div{
+    margin-bottom: 100px;
+    position:relative;
+    top:15px;
+
+  }
+
+  img{
+    margin:0;
+    padding:0;
+  }

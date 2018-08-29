@@ -1,0 +1,38 @@
+/* this page covers the make up of the grid */
+
+.header {
+  grid-area:nav;
+}
+
+.con {
+  grid-area:maintext;
+}
+.pic1 {
+  grid-area:picture1;
+}
+.pic2 {
+  grid-area:picture2;
+}
+.pic3 {
+  grid-area:picture3;
+}
+
+.container {
+
+  height: 1500px;
+  width: 960px;
+  display: grid;
+  grid-template-areas:"nav nav"
+  "maintext picture1"
+  "maintext picture2"
+  "maintext picture3";
+  grid-template-columns: 710px 500px;
+  grid-template-rows: 50px 470px 350px 450px;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+}
+
+.gridarea {
+  background-color: RGB(149, 118, 171);
+
+}

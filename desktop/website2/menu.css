@@ -1,0 +1,40 @@
+/*this page is specific to the menus on all three pages */
+
+.menu{
+  margin:0;
+  padding:0;
+  position: fixed; /*still not clear on positioning */
+  top:0;
+  left:0;
+  z-index: 10;
+  width:100%;  ;
+}
+  .menu ul{
+    background-color: RGB(84, 43, 114);
+    padding:0;
+    margin:0;
+    list-style-type: none; /*everywhere tells me I need to use this but it
+    doesn't do anything on mine the bullets are removed when I put other
+    style elemnts in don't understand */
+
+
+  }
+
+  .menu li{
+    font-family: "baloo tammudu";
+    text-transform: uppercase;
+    font-size: 30px;
+    display:inline-block;
+    padding: 20px;
+    font-weight:bold;
+  }
+
+  a{
+    text-decoration: none;
+    color:white;
+  }
+
+  a:hover{
+    background-color: blue;
+    /*really want the to be the whole box but not working properly*/
+  }
